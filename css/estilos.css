@@ -1,0 +1,50 @@
+/*Estilo del cuerpo del desarrollo que es el contenido*/
+body{
+    margin:0;
+    padding: 0;
+}
+
+/*clase general que debe contener el desarrollo*/
+footer{
+    background-color:#fcfcfcc4;
+    color:#333333;
+}
+/*clase de lista no ordenada*/
+footer ul{
+    padding:0;
+}
+
+/*lista ordenada ninguna*/
+
+footer li{
+    list-style: none;
+}
+
+/*clase general de posicion de footer contenido de elementos */
+.w-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px;
+    margin: 20px auto;
+    max-width:1200px;
+}
+
+/*credenciales del footer*/
+
+.footer-creds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 10px;
+    margin: 0 auto;
+    background-color:#e4e4e4f1;
+    color:#333333;
+    max-width: 1200px;
+}
+
+/* icono que contiene las credenciales del footer*/
+.corazon{
+    max-width: 15px;
+    align-items: center;
+}
+
