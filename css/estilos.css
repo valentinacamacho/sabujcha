@@ -1,12 +1,154 @@
 /*Estilo del cuerpo del desarrollo que es el contenido*/
-body{
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+/*Propiedades generales del desarrollo*/
+*{
     margin:0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
+
+/*Especificacion de propiedad y valor del cuerpo de la pagina*/
+body{
+    background:#333333 ;
+}
+
+/*Especificacion que no tenga ningun item*/
+li{
+    list-style: none;
+}
+
+
+a,  li{
+    font-family: "Playfair";
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 15px; 
+
+}
+/*Inicializacion desarrollo de estilos para el header*/
+
+/*Especificacion de estilos en general del header */
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #fff;
+    align-items: center;
+}
+
+/*Especificacion de estilos en lista desordenada*/
+.nav-men ul{
+display:flex;
+align-items: center;
+padding: 20px;
+}
+
+/*Se especifica la propiedad de tamaño de margen para que se divida la posicion de elemento de texto*/
+.nav-men li{
+    margin-right: 30px;
+}
+
+.nav-men a:hover{
+    color: #529F0F ;
+}
+
+.menu{
+    position:fixed;
+    top:0;
+    
+}
+
+/*Especificacion de estilo del logo de la marca*/
+.logo_header{
+    display:flex;
+    position:absolute;
+    align-items: center;
+    flex-basis: 15%;
+    left:650px;
+}
+
+/*propiedades y valores del  icono de hamburguesa*/
+.icon_menu img{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    top:20px;
+}
+
+/*Especificacion de estilo de la caja de texto checkbox*/
+.icon_menu, #check_menu{
+    display:none;
+}
+
+/*Media query responsive escritorio*/
+
+/*Esṕecificacion de tamaño de media query*/
+@media (max-width:768px){
+    .checkbtn{
+        display:block;
+    }
+/*Especificacion de cuando se despliega de forma pequeña salga el icono de hamburguesa*/
+    .icon_menu  {
+        display: block;
+        position: fixed;
+        top:5px;
+        right: 10px;
+        cursor:pointer;
+        justify-content: center;
+    }
+
+    .logo_header{
+        display: block;
+        margin-bottom:20px;
+        justify-content: center;
+        top:-5px;
+        left:20px
+    }
+    
+
+    /*clic en el icono para que pueda esplazar lo de navegacion*/
+    .nav-men ul  {
+        display:block;
+        position:fixed;
+        top:70px;
+        left:-100%;
+        background:#fff;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+    }
+
+    .nav-men ul li{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    /* funciona el icon y Afectara a los elementos del menu*/
+    #check_menu:checked ~ ul{
+        left:0;
+        transition: all .25s;
+    }
+}
+/*Inicializacion desarrollo de estilos para el Body*/
+
+.img-principal{
+    width: -200px;
+    height: -2300px;
+}
+
+
+
+
+/*Inicializacion desarrollo de estilos para el footer*/
 
 /*clase general que debe contener el desarrollo*/
 footer{
-    background-color:#fcfcfcc4;
+    background-color:#f0f0f0e5;
     color:#333333;
 }
 /*clase de lista no ordenada*/
@@ -18,6 +160,7 @@ footer ul{
 
 footer li{
     list-style: none;
+    font-family: 'Work Sans';
 }
 
 /*clase general de posicion de footer contenido de elementos */
@@ -35,7 +178,7 @@ footer li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:  0 10px;
+    padding: 20px;
     margin: 0 auto;
     background-color:#e4e4e4f1;
     color:#333333;
