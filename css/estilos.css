@@ -213,59 +213,128 @@ padding: 20px;
 .imagenes1 img{
     display: flex;
     justify-content: center;
-    width: 15%;
+    width: 16%;
 
 }
 
 /*imagen cards 1*/
 
 .image1{
-    margin-left: 100px; 
+    display: flex;
+    margin-left: 150px; 
     justify-content: center;
     position: absolute;
-    justify-content: space-between;
     top:135%;
+    padding-left: 10px; 
 
 }
 
 /*imagen cards 2*/
 .image2{
     display: flex;
-    margin-left: 200px; 
+    margin-left: 100px; 
     justify-content: center;
     position: absolute;
     top:135%;
-    margin-left: 100px;
-    padding-left: 300px; 
+    padding-left: 310px; 
 }
 
 /*imagen cards 3*/
 .image3{
     display: flex;
-    margin-left: 200px; 
+    margin-left: 100px; 
     justify-content: center;
     position: absolute;
     top:135%;
-    margin-left: 100px;
-    padding-left: 600px; 
+    padding-left: 550px; 
 }
 
 /*imagen cards 4*/
 .image4{
     display: flex;
-    margin-left: 200px; 
+    margin-left: 50px; 
     justify-content: center;
     position: absolute;
     top:135%;
-    margin-left: 100px;
-    padding-left: 900px; 
+    padding-left: 840px; 
 }
 
 
+/*Letra de los cards de la imagenes de la seccion 3*/
 
+.seccion3{
+    position:absolute;
+    font-family: 'Playfair';
+    color:  #333333 ;
+    font-size: 14px;
+    top:160%;
+    left:45%;
+    align-items: center;
+}
 
+.titulo1{
+    display: flex;
+    position:absolute;
+    font-family: 'Playfair Dispaly';
+    color:  #333333 ;
+    font-size: 16px;
+    top:175%;
+    left:15%;
+    align-items: center;
+}
 
+.titulo2{
+    display: flex;
+    position:absolute;
+    font-family: 'Playfair Dispaly';
+    color:  #333333 ;
+    font-size: 16px;
+    top:175%;
+    left:33%;
+    align-items: center;
+}
 
+.titulo3{
+    display: flex;
+    position:absolute;
+    font-family: 'Playfair Dispaly';
+    color:  #333333 ;
+    font-size: 16px;
+    top:175%;
+    left:51%;
+    align-items: center;
+}
+
+.titulo4{
+    display: flex;
+    position:absolute;
+    font-family: 'Playfair Dispaly';
+    color:  #333333 ;
+    font-size: 16px;
+    top:175%;
+    left:68%;
+    align-items: center;
+}
+
+.porcentaje1{
+    height: 10%;
+    display: flex;
+    margin-left: 151px; 
+    justify-content: center;
+    position: absolute;
+    top:135%;
+    padding-left: 10px; 
+}
+
+.porcentaje2{
+    height: 10%;
+    display: flex;
+    margin-left: 650px; 
+    justify-content: center;
+    position: absolute;
+    top:135%;
+    
+}
 
 
 
