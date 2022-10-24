@@ -182,6 +182,7 @@ padding: 20px;
     display: flex;
     height: 575px;
     width: 1288px;
+    margin-top:60px;
 }
 
 /*titulo del fondo de la seccion */
@@ -207,6 +208,72 @@ padding: 20px;
     left:35%;
     right:35%;
 }
+
+/* seccion # 3 4 images de los cards  de producto de desarrollo*/
+.imagenes1 img{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+
+}
+
+/*imagen cards 1*/
+
+.image1{
+    margin-left: 100px; 
+    justify-content: center;
+    position: absolute;
+    justify-content: space-between;
+    top:135%;
+
+}
+
+/*imagen cards 2*/
+.image2{
+    display: flex;
+    margin-left: 200px; 
+    justify-content: center;
+    position: absolute;
+    top:135%;
+    margin-left: 100px;
+    padding-left: 300px; 
+}
+
+/*imagen cards 3*/
+.image3{
+    display: flex;
+    margin-left: 200px; 
+    justify-content: center;
+    position: absolute;
+    top:135%;
+    margin-left: 100px;
+    padding-left: 600px; 
+}
+
+/*imagen cards 4*/
+.image4{
+    display: flex;
+    margin-left: 200px; 
+    justify-content: center;
+    position: absolute;
+    top:135%;
+    margin-left: 100px;
+    padding-left: 900px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
