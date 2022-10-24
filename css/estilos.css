@@ -358,6 +358,27 @@ padding: 20px;
     font-size: 20px;
 }
 
+/*parrafo en ele contenido de la seccion #4*/
+.parrafo{
+    align-items: center;
+    font-family: 'lora';
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 5px ;
+    margin-top: 22px;
+    font-size: 16px;
+}
+
+/*sub parrafo en ele contenido de la seccion #4*/
+.sub-parrafo{
+    align-items: center;
+    font-family: 'lora';
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom:60px ;
+}
 
 
 
