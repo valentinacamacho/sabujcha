@@ -1,3 +1,9 @@
+:root{ 
+    --titulos: 'Playfair Display', serif;
+    --textos:'Lora', serif; 
+    --productos:'Work Sans', sans-serif; 
+} 
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -21,8 +27,7 @@ li{
     list-style: none;
 }
 
-
-a,  li{
+.nav-men a,  li{
     font-family: "Playfair";
     color: #333333;
     text-transform: uppercase;
@@ -50,9 +55,9 @@ a,  li{
 
 /*Especificacion de estilos en lista desordenada*/
 .nav-men ul{
-display:flex;
-align-items: center;
-padding: 20px;
+    display:flex;
+    align-items: center;
+    padding: 20px;
 }
 
 /*Se especifica la propiedad de tamaño de margen para que se divida la posicion de elemento de texto*/
@@ -143,145 +148,306 @@ padding: 20px;
         transition: all .25s;
     }
 }
+
+/*Se coloco */
+.img-principal{
+    background-image:url(../img/slider-2.jpg); 
+    width: 95%; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    margin:0 auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-principal p{
+    font-family: var(--titulos);
+    font-size: 50px;
+    text-align: center;
+}
+
+.img-principal a{
+    text-decoration: underline;
+    font-family: var(--productos);
+    font-size: 20px;
+    color: black;
+}
+
+
+.seccion2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.product1{
+    background-image:url(../img/banner-1.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    height: 200px; 
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+.product2{
+    background-image:url(../img/banner-2.png); 
+    height: 200px; 
+    width: 450px;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.des1{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-family: var(--textos);
+    font-size: 24px;
+    color:#529F0F;
+}
+
+.des2{
+    margin-left: 20px;
+    font-family: var(--productos);
+    font-size: 12px;
+    
+}
+
+
+
+
 /*Inicializacion desarrollo de estilos para el Body*/
 
 .container{
     display: flex;
-    margin-right: 40px;
+    flex-direction: column;
+    top: 80px;
     margin-left: 40px;
-
-
-}
-
-/*Seccion # 1 /
-/*imagen principal de body*/
-.img-principal{
-    display: flex;
-    height: 540px;
-}
-
-
-/*titulo de imagen principal*/
-.titulo-img{
-    position:absolute;
-    align-items: center;
-    font-family: 'Playfair Displays';
-    color:  #000000 ;
-    font-size: 50px;
-    top:35%;
-    left:30%;
-    padding: 60px ;
-    right:30%;
-    font-weight: 500;
-
-}
-
-/*Seccion # 3 */
-/*fondo de la seccion */
-.bg{
-    display: flex;
-    height: 575px;
-    width: 1288px;
-    margin-top:60px;
-}
-
-/*titulo del fondo de la seccion */
-.titulo{
-    position:absolute;
-    font-family: 'Playfair';
-    color:  #333333 ;
-    font-size: 32px;
-    top:110%;
-    left:45%;
+    margin-right: 40px;
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
     align-items: center;
 }
 
-/*texto que se compone del fondo de la seccion*/
-.texto p{
-    align-items: center;
-    position:absolute;
-    padding:0;
-    font-family: 'Lora';
-    color:  #333333 ;
-    font-size: 16px;
-    top:120%;
-    left:35%;
-    right:35%;
-}
-
-/* seccion # 3 4 images de los cards  de producto de desarrollo*/
-.imagenes1 img{
-    display: flex;
-    justify-content: center;
-    width: 16%;
-
-}
-
-/*imagen cards 1*/
-
-.image1{
-    display: flex;
-    margin-left: 150px; 
-    justify-content: center;
-    position: absolute;
-    top:135%;
-    padding-left: 10px; 
-
-}
-
-/*imagen cards 2*/
-.image2{
-    display: flex;
-    margin-left: 100px; 
-    justify-content: center;
-    position: absolute;
-    top:135%;
-    padding-left: 310px; 
-}
-
-/*imagen cards 3*/
-.image3{
-    display: flex;
-    margin-left: 100px; 
-    justify-content: center;
-    position: absolute;
-    top:135%;
-    padding-left: 550px; 
-}
-
-/*imagen cards 4*/
-.image4{
-    display: flex;
-    margin-left: 50px; 
-    justify-content: center;
-    position: absolute;
-    top:135%;
-    padding-left: 840px; 
-}
-
-
-/*Letra de los cards de la imagenes de la seccion 3*/
 
 .seccion3{
-    position:absolute;
-    font-family: 'Playfair';
-    color:  #333333 ;
-    font-size: 14px;
-    top:160%;
-    left:45%;
-    align-items: center;
+    text-align: center;
+    
 }
 
-.titulo1{
-    display: flex;
-    position:absolute;
-    font-family: 'Playfair Dispaly';
-    color:  #333333 ;
-    font-size: 16px;
-    top:175%;
-    left:15%;
-    align-items: center;
+.seccion3 h2{
+    font-family:var(--titulos) ;
+    font-size: 25px;
+    margin-top:60px;
+    font-weight: 300;
 }
+
+.seccion3 p {
+    text-align: center;
+    font-family: var(--textos);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.fondo-pro1{
+    background-image: url(../img/product-1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.con-img h3{
+    margin-top: 20px;
+    font-family: var(--productos);
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.con-img p{
+    font-family: var(--productos);
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    height: 850px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.fondo-pro2{
+    background-image: url(../img/product-2.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro3{
+    background-image: url(../img/product-3.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro4{
+    background-image: url(../img/product-4.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro1{
+    background-image: url(../img/product-1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.pro{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.fondo-pro5{
+    background-image: url(../img/product-1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro6{
+    background-image: url(../img/product-3.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro7{
+    background-image: url(../img/product-5.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro8{
+    background-image: url(../img/product-7.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro9{
+    background-image: url(../img/product-2.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro10{
+    background-image: url(../img/product-4.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro11{
+    background-image: url(../img/product-6.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+.fondo-pro12{
+    background-image: url(../img/product-8.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    width: 200px;
+    height: 200px; 
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
 
 .titulo2{
     display: flex;
@@ -316,25 +482,6 @@ padding: 20px;
     align-items: center;
 }
 
-.porcentaje1{
-    height: 10%;
-    display: flex;
-    margin-left: 151px; 
-    justify-content: center;
-    position: absolute;
-    top:135%;
-    padding-left: 10px; 
-}
-
-.porcentaje2{
-    height: 10%;
-    display: flex;
-    margin-left: 650px; 
-    justify-content: center;
-    position: absolute;
-    top:135%;
-    
-}
 
 /*seccion  #4 de la imagen central*/
 .planta img{ 
@@ -391,7 +538,6 @@ padding: 20px;
 
 
 
-
 /*Inicializacion desarrollo de estilos para el footer*/
 
 /*clase general que debe contener el desarrollo*/
@@ -402,6 +548,7 @@ footer{
 /*clase de lista no ordenada*/
 footer ul{
     padding:0;
+    margin-top:30px ;
 }
 
 /*lista ordenada ninguna*/
@@ -409,14 +556,17 @@ footer ul{
 footer li{
     list-style: none;
     font-family: 'Work Sans';
+    margin-top:20px ;
+    text-transform: none;
 }
 
 /*clase general de posicion de footer contenido de elementos */
 .w-footer {
     display: flex;
     justify-content: space-evenly;
-    padding:10px;
-    margin: 20px auto;
+    padding:60px 60px;
+    margin-top: 20px auto;
+    margin-bottom: 20px;
     max-width:1200px;
 }
 
