@@ -336,17 +336,30 @@ padding: 20px;
     
 }
 
+/*seccion  #4 de la imagen central*/
 .planta img{ 
     display:flex;
     position: relative;
-    padding: 50px 50px;
     align-items: center;
+    top: 60px;
+    left: 320px;
+    margin-left: 350px;
+    margin-right: 350px;
     flex-basis: 15%;
-    left:650px;
-    margin-bottom: 40px;
-
-    
 }
+/*texto en contenido seccion #4*/
+.letra-texto{
+    align-items: center;
+    font-family: 'lora';
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 20px 20px ;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+
 
 
 
