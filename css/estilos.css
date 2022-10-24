@@ -336,6 +336,17 @@ padding: 20px;
     
 }
 
+.planta img{ 
+    display:flex;
+    position: relative;
+    padding: 50px 50px;
+    align-items: center;
+    flex-basis: 15%;
+    left:650px;
+    margin-bottom: 40px;
+
+    
+}
 
 
 
