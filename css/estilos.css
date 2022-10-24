@@ -149,10 +149,11 @@ padding: 20px;
     display: flex;
     margin-right: 40px;
     margin-left: 40px;
-    width: 50%;
+
+
 }
 
-
+/*Seccion # 1 /
 /*imagen principal de body*/
 .img-principal{
     display: flex;
@@ -173,6 +174,38 @@ padding: 20px;
     right:30%;
     font-weight: 500;
 
+}
+
+/*Seccion # 3 */
+/*fondo de la seccion */
+.bg{
+    display: flex;
+    height: 575px;
+    width: 1288px;
+}
+
+/*titulo del fondo de la seccion */
+.titulo{
+    position:absolute;
+    font-family: 'Playfair';
+    color:  #333333 ;
+    font-size: 32px;
+    top:110%;
+    left:45%;
+    align-items: center;
+}
+
+/*texto que se compone del fondo de la seccion*/
+.texto p{
+    align-items: center;
+    position:absolute;
+    padding:0;
+    font-family: 'Lora';
+    color:  #333333 ;
+    font-size: 16px;
+    top:120%;
+    left:35%;
+    right:35%;
 }
 
 
