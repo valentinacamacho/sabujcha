@@ -1,14 +1,15 @@
-/*Estilo del cuerpo del desarrollo que es el contenido*/
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
+::-webkit-scrollbar {
+    display: none;
+}
 
 /*Propiedades generales del desarrollo*/
 *{
     margin:0;
     padding: 0;
     text-decoration: none;
-    list-style: none;
+    list-style: none; 
 }
+
 
 /*Especificacion de propiedad y valor del cuerpo de la pagina*/
 body{
@@ -26,8 +27,15 @@ a,  li{
     color: #333333;
     text-transform: uppercase;
     font-size: 15px; 
-
+    margin-bottom: 5px;
+    align-items: center;
 }
+
+.lista{
+    font-family: "Playfair";
+}
+
+
 /*Inicializacion desarrollo de estilos para el header*/
 
 /*Especificacion de estilos en general del header */
@@ -37,6 +45,7 @@ a,  li{
     padding: 20px 20px;
     background-color: #fff;
     align-items: center;
+    width: 100%;
 }
 
 /*Especificacion de estilos en lista desordenada*/
@@ -136,11 +145,34 @@ padding: 20px;
 }
 /*Inicializacion desarrollo de estilos para el Body*/
 
-.img-principal{
-    margin-left: 40px;
+.container{
+    display: flex;
     margin-right: 40px;
-    margin-bottom: 40px;
-    width: 1200px;
+    margin-left: 40px;
+    width: 50%;
+}
+
+
+/*imagen principal de body*/
+.img-principal{
+    display: flex;
+    height: 540px;
+}
+
+
+/*titulo de imagen principal*/
+.titulo-img{
+    position:absolute;
+    align-items: center;
+    font-family: 'Playfair Displays';
+    color:  #000000 ;
+    font-size: 50px;
+    top:35%;
+    left:30%;
+    padding: 60px ;
+    right:30%;
+    font-weight: 500;
+
 }
 
 
