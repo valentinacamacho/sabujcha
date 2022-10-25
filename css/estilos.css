@@ -465,7 +465,38 @@ li{
 }
 
 
+.form{
+    font-family: var(--textos);
+}
+.form .boton{
+    width: 50%;
+    background-color: #000000;
+    border: none;
+    padding: 20px;
+    margin:16px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
 
+.form .boton:hover{
+    background-color:#529F0F;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.control{
+background: #fff;
+width: 100%;
+padding: 20px;
+border-radius: 1px;
+margin-bottom: 30px;
+border:1px solid #5757571a;
+font-family: var(--textos);
+font-size: 16px;
+
+}
 
 
 
