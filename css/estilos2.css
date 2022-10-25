@@ -293,3 +293,71 @@ li{
     margin-right: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Inicializacion desarrollo de estilos para el footer*/
+
+/*clase general que debe contener el desarrollo*/
+footer{
+    background-color:#f0f0f0e5;
+    color:#333333;
+}
+/*clase de lista no ordenada*/
+footer ul{
+    padding:0;
+    margin-top:30px ;
+    font-family: var(--titulos);
+    font-size: 10px;
+}
+
+/*lista ordenada ninguna*/
+
+footer li{
+    list-style: none;
+    font-family: var(--textos);
+    font-size: 11px;
+    margin-top:10px ;
+    text-transform: none;
+}
+
+/*clase general de posicion de footer contenido de elementos */
+.w-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding:60px 60px;
+    margin-top: 20px auto;
+    margin-bottom: 20px;
+    max-width:1200px;
+}
+
+/*credenciales del footer*/
+
+.footer-creds{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    background-color:#e4e4e4f1;
+    color:#333333;
+    max-width: 1200px;
+}
+
+/* icono que contiene las credenciales del footer*/
+.corazon{
+    max-width: 15px;
+    align-items: center;
+}
