@@ -442,6 +442,29 @@ li{
     margin-right: 20px;
 }
 
+.caja-texto{
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    height: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url(../img/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.caja h2{
+    font-family:var(--titulos) ;
+    font-size: 32px;
+    margin-bottom:40px;
+    font-weight: 300;
+}
+
+
 
 
 
