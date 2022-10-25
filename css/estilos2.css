@@ -1,3 +1,11 @@
+:root{ 
+    --titulos: 'Playfair Display', serif;
+    --textos:'Lora', serif; 
+    --productos:'Work Sans', sans-serif; 
+    --opacidad-negro: 0.7;
+} 
+
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -11,7 +19,7 @@
 }
 
 
-/*Especificacion de propiedad y valor del cuerpo de la pagina*/
+/*Especificacion de propiedad y vaslor del cuerpo de la pagina*/
 body{
     background:#fff ;
 }
@@ -141,4 +149,19 @@ li{
         left:0;
         transition: all .25s;
     }
+}
+
+
+.img-principal{
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/img2.jpg");
+    width: 100%; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    margin:0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
