@@ -1,186 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Page Products</title>
+    <link rel="stylesheet" href="css/estilos2.css" />
 
-    <title>Document</title>
-    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Inicializacion desarrollo de contenido en el header-->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Work+Sans&display=swap" rel="stylesheet">
-</head>
-<body>
+    <!--En esta seccion se coloco el logo de la pagina-->
+    <header class="header">
+      <div class="logo_header">
+        <a href="#"><img src="img/logo.png" alt="" /></a>
+      </div>
 
-<!--Inicializacion desarrollo de contenido en el header-->
-
-
-<!--En esta seccion se coloco el logo de la pagina-->
-<header class="header">
-    <div class="logo_header">
-        <a href="#"><img src="img/logo.png" alt=""></a>
-    </div>
-
-<!--En este seccion se coloco el checbox y el logo  que corresponde a la pagina-->    
-    <div class="menu">
-        <input type="checkbox" id="check_menu">
+      <!--En este seccion se coloco el checbox y el logo  que corresponde a la pagina-->
+      <div class="menu">
+        <input type="checkbox" id="check_menu" />
         <label for="check_menu" class="checkbtn">
-            <i class="icon_menu"><img  src="img/menu-hamburguesa.svg" alt=""></i>
+          <i class="icon_menu"><img src="img/menu-hamburguesa.svg" alt="" /></i>
         </label>
+      </div>
+
+      <!--En esta seccion se coloco el menu que corresponde a la spagina-->
+      <nav class="nav-men">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="producto.html">about</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">pages</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Inicializacion desarrollo de contenido en el Body-->
+
+    <!--Seccion 1-->
+
+    <div class="img-principal">
+      <p class="single">Single Product</p>
+      <a class="link" href="index.html">Home / Single Product</a>
     </div>
 
-        <!--En esta seccion se coloco el menu que corresponde a la spagina-->
-    <nav class="nav-men">
-    <ul> 
-        <li><a href="index.html">home</a></li>
-        <li><a href="producto.html">about</a></li>
-        <li><a href="#">blog</a></li>
-        <li><a href="#">pages</a></li>
-        <li><a href="#">contact</a></li>
-    </ul>
-</nav>
-</header>
 
-
-<!--Inicializacion desarrollo de contenido en el Body-->
-
-<!--Seccion 1-->
-
-<div class="img-principal">
-    <p class="single">Single Product</p>
-    <a class="link" href="index.html">Home / Single Product</a>
-</div>
-
-
-<!--Inicializacion desarrollo de contenido en el Body-->
-
-<!--Seccion 4-->
-
-
-
-<!--Seccion 5-->
-
-<section class="container">
-        
-    <div class="seccion3">
-        <h2>Related Products</h2>
-    </div>
-
-    <div class="imgs"> 
-        <div class="con-img">
-            <div class="fondo-pro1">
-                <img class="pro" src="img/por30.jpeg">
-            </div>
-            <h3>Natute close tea</h3>
-            <p>$100.00-$120.00</p>
+    <aside>
+      <!--Inicializacion desarrollo de contenido en el Body-->
+      <div class="informacion-productos-Nature">
+        <div class="titulo-nature">
+          <h2>Nature Close Tea</h2>
         </div>
-
-        <div class="con-img">
-            <div class="fondo-pro2"></div>
-            <h3>Pink wave</h3>
-            <p>$100.00-$120.00</p>
+      
+        <div class="estrellitas">
+          <img src="./img/Estrella-verde.png">
+          <img src="./img/Estrella-verde.png">
+          <img src="./img/Estrella-verde.png">
+          <img src="./img/Estrella-verde.png">
+          <img src="./img/Estrella-gris.png">
+  
+          <p class="titulo-check">32 Review </p>
+          <p class="gris">|</p>
+          <p class="titulo-check">Add your Reviews</p>
         </div>
-
-        <div class="con-img">
-            <div class="fondo-pro3">
-                <img class="pro" src="img/por30.jpeg">
-            </div>
-            <h3>Tea and Chai</h3>
-            <p>$100.00-$120.00</p>
-        </div>
-
-        <div class="con-img">
-            <div class="fondo-pro4"></div>
-            <h3>Pearly Everlasting</h3>
-            <p>$100.00-$120.00</p>
+  
+        <div class="precio-nature">
+          <p>$260.00</p>
         </div>
         
-    </div>
-</section>
-
-
-
-
-
-
-<!--Inicializacion desarrollo de contenido en el footer-->
-
-<footer class="footer"> 
-
-    <!--Contwnodo del footer de la cuenta-->
-            <div class="w-footer">
-                <div class="element-footer">
-                    <h3 class="lista">My Account</h3>
-                    <ul>
-                        <li>My Account</li>
-                        <li>Order History</li>
-                        <li>WishList</li>
-                        <li>Newsletter</li>
-                        <li>Order History</li>
-                        <li>International Orders</li>
-                    </ul>
-                </div>
-    
-    <!--Contenido del footer de Informacion-->
-                <div class="element-footer">
-                    <h3 class="lista">Informacion</h3>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Delivery Informacion</li>
-                        <li>Privacy Policy</li>
-                        <li>Terms & Conditions</li>
-                        <li>Customers Service</li>
-                        <li>Return Policy</li>
-                    </ul>
-                </div>
-    
-    <!---Contenido del footer de enlaces -->
-                <div class="element-footer">
-                    <h3 class="lista">Quick Links</h3>
-                        <ul>
-                            <li>Support Center</li>
-                            <li>Term & Conditions</li>
-                            <li>Shipping</li>
-                            <li>Privacy Policy</li>
-                            <li>Customers Service</li>
-                            <li>Help</li>
-                            <li>FASQS</li>
-                        </ul>
-                    </div>
-    
-    <!--Contenido de footer contacto-->       
-                    <div class="element-footer">
-                        <h3 class="lista">Contact Us </h3>
-                        <ul>
-                            <li>Your address goes here</li>
-                            <li>0123456789</li>
-                            <li>0123456789</li>
-                            <li>demo@example.com</li>
-                            <li>demo@example.com</li>
-                        </ul>
-                    </div>
-    </div>
-    
-    <!--Credencial del footer  del desarrollo de la pagina-->
-    
-        <div class="footer-creds">
-            <div class="copy-credds">
-                <p>@ 2022 SabujCha Made With
-                <img class="corazon" src="img/me-gusta.png"> By <Strong>HasThemes</Strong></p>
-            </div>
-    
-            <div class="creds-img">
-                <img src="img/payment.png">
-            </div>
-    
+        <div class="parrafo-nature">
+  
+          <div class="parra-stock">
+            <p>Available:</p>
+            <p class="parrafo-verde">In stock</p>
+          </div>
+  
+         <p class="texto-nature">Nam liber tempor cum soluta nobis eleifed option congue nihil imperdiet  doming id quod mazim placerat facer possim assum</p>
         </div>
+  
+  
+        <div class="checbox-Nature">
+  
+          <label>
+            <input type="checkbox"> 
+            <p class="titulo-check">Protection Plan:</p>
+            <p class="parrafo-verde"> 2 year $4.99</p>
+          </label>
+  
+          <label>
+            <input type="checkbox"> 
+            <p class="titulo-check">Remote Holder:</p>
+            <p class="parrafo-verde"> $9.99</p>
+          </label>
+  
+          <label>
+            <input type="checkbox"> 
+            <p class="titulo-check">Koral Alexa Voice Remote Case:</p>
+            <p class="parrafo-verde"> Red $16.99</p>
+          </label>
+  
+          <label>
+            <input type="checkbox"> 
+            <p class="titulo-check">Amazon Basics HD Antenna:</p>
+            <p class="parrafo-verde"> 25 Mile $14.99</p>
+          </label>
+  
+  
+        <div class="botones">
+  
+          <div class="qty">
+            <p>Qty:</p>
+          </div>
+  
+          <bottom class="numero">02</bottom>
+          <bottom class="carrito-cat"><img src="./img/carrito.png"></bottom>
+          <bottom class="carrito-cat"><img src="./img/corazon.png"></bottom>
+  
+  
+        </div>
+  
+  
+        <div class="parrafo-cate">
+          <p class="texto-nature1">Categories:  Green,Herbal,Loose,Mate,Organic</p>
+          <p class="texto-nature1">Tags: Oolong, Pu'erh, Dark, Special</p>
+        </div>
+  
+        
+          <div class="Redes-sociales">
+  
+            <div class="Red-tweet">
+             <label><img src="./img/tweet.png">Tweet</label>
+            </div>
+  
+            <div class="Red-face">       
+              <label><img src="./img/facebook.png">Share</label>
+            </div>
+  
+            <div class="Red-google">
+              <label><img src="./img/google.png">Google</label>    
+            </div>
+  
+            <div class="Red-pinteres">
+              <label>   <img src="./img/pinterest.png" >Pinterest   </label>    
+            </div>
+          </div>
+      </div>
+    </aside>
+  
+
+    <section>
+      <div class="imagen-planta">
+        <img src="./img/product-detalis-l1.jpg">
+      </div>
+      <div class="carrusel">
+      <img src="./img/product-detalis-l1.jpg">
+    </div>
+    </section>   
+   
+  
     
+
+    <!--Seccion 4-->
+
+    <div class="minis-menu">
+      <ul>
+        <li><a href="#">Description</a></li>
+        <li><a href="#">Tag</a></li>
+        <li><a href="#">Review</a></li>
+      </ul>
+    </div>
+
+    <div class="descipcion-pro">
+      <div class="descripcion-producto">
+        <div class="parrafo1">
+          <p>
+            Duis autem vel eum dolor in hendrerit in vulputate velit esse
+            molestie consequat, vel illum dolore eu faugiat nulla facilisis at
+            vero eros et accuman et iusto odio dignissim qui blandit praesent
+            zzril delenit augue duis dolore te feugait nulla facillisi. Nam
+            liber tempor cum soluta nobis eleifed option cogue nihil imperdiet
+            doming id quod mazom placerat facer possim assum. Tupi non habent
+            claritatem insitam est asus legentis in iis qui facit eorum
+            claritatem est usus legentis in iis qui facit eorum claritatem.
+          </p>
+        </div>
+
+        <div class="parrafo2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exercitation
+            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+            consequat.
+          </p>
+        </div>
+
+        <div class="items-parrafo-producto">
+          <p class="item1">-Typi non habent claritatem insitam.</p>
+          <p class="item1">
+            -Est usus legentis in iis qui facit eorum claritatem.
+          </p>
+          <p class="item1">
+            -Inventigationes demosnstraverunt lectores legere me lius quod ii
+            legunt saepius.
+          </p>
+          <p class="item1">
+            -Claritas est etiam processus dynamicus, qui sequitur mutationem
+            consuertudium lectorum
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Seccion 5-->
+
+    <section class="container">
+      <div class="seccion3">
+        <h2 class="titulo_pro">Related Products</h2>
+      </div>
+
+      <div class="imgs">
+        <div class="con-img">
+          <div class="fondo-pro1">
+            <img class="pro" src="img/por30.jpeg" />
+          </div>
+          <h3 class="titulo-productos">Le Bongai Tea</h3>
+          <div class="precios">
+            <p>$100-</p>
+            <p class="tachado">$120.00</p>
+          </div>
+        </div>
+
+        <div class="con-img">
+          <div class="fondo-pro2"></div>
+          <h3 class="titulo-productos">Society Ice Tea</h3>
+          <div class="precios">
+            <p>$100-</p>
+            <p class="tachado">$120.00</p>
+          </div>
+        </div>
+
+        <div class="con-img">
+          <div class="fondo-pro3">
+            <img class="pro" src="img/por30.jpeg" />
+          </div>
+          <h3 class="titulo-productos">Green Tea Tulsi</h3>
+          <div class="precios">
+            <p>$100-</p>
+            <p class="tachado">$120.00</p>
+          </div>
+        </div>
+
+        <div class="con-img">
+          <div class="fondo-pro4"></div>
+          <h3 class="titulo-productos">Best Friends Tea</h3>
+          <div class="precios">
+            <p>$100-</p>
+            <p class="tachado">$120.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Inicializacion desarrollo de contenido en el footer-->
+
+    <footer class="footer">
+      <!--Contwnodo del footer de la cuenta-->
+      <div class="w-footer">
+        <div class="element-footer">
+          <h3 class="lista">My Account</h3>
+          <ul>
+            <li>My Account</li>
+            <li>Order History</li>
+            <li>WishList</li>
+            <li>Newsletter</li>
+            <li>Order History</li>
+            <li>International Orders</li>
+          </ul>
+        </div>
+
+        <!--Contenido del footer de Informacion-->
+        <div class="element-footer">
+          <h3 class="lista">Informacion</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Delivery Informacion</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Customers Service</li>
+            <li>Return Policy</li>
+          </ul>
+        </div>
+
+        <!---Contenido del footer de enlaces -->
+        <div class="element-footer">
+          <h3 class="lista">Quick Links</h3>
+          <ul>
+            <li>Support Center</li>
+            <li>Term & Conditions</li>
+            <li>Shipping</li>
+            <li>Privacy Policy</li>
+            <li>Customers Service</li>
+            <li>Help</li>
+            <li>FASQS</li>
+          </ul>
+        </div>
+
+        <!--Contenido de footer contacto-->
+        <div class="element-footer">
+          <h3 class="lista">Contact Us</h3>
+          <ul>
+            <li>Your address goes here</li>
+            <li>0123456789</li>
+            <li>0123456789</li>
+            <li>demo@example.com</li>
+            <li>demo@example.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--Credencial del footer  del desarrollo de la pagina-->
+
+      <div class="footer-creds">
+        <div class="copy-credds">
+          <p>
+            @ 2022 SabujCha Made With
+            <img class="corazon" src="img/me-gusta.png" /> By
+            <strong>HasThemes</strong>
+          </p>
+        </div>
+
+        <div class="creds-img">
+          <img src="img/payment.png" />
+        </div>
+      </div>
     </footer>
-
-    
-
-</body>
+  </body>
 </html>

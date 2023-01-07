@@ -107,7 +107,7 @@ li{
 /*Especificacion de cuando se despliega de forma pequeña salga el icono de hamburguesa*/
     .icon_menu  {
         display: block;
-        position: fixed;
+        position:fixed;
         top:5px;
         right: 10px;
         cursor:pointer;
@@ -122,7 +122,6 @@ li{
         left:20px
     }
     
-
     /*clic en el icono para que pueda esplazar lo de navegacion*/
     .nav-men ul  {
         display:block;
@@ -147,6 +146,7 @@ li{
         left:0;
         transition: all .25s;
     }
+
 }
 
 /*Se coloco */
@@ -177,6 +177,7 @@ li{
     color: black;
 }
 
+   
 
 .seccion2{
     display:flex;
@@ -267,8 +268,8 @@ li{
 }
 
 .imgs{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-direction: row;
     padding: 20px;
     margin-top: 40px;
 }
@@ -518,6 +519,11 @@ font-size: 16px;
     align-items: center;
 }
 
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
 .img7{
     display: flex;
     padding: 20px;
@@ -715,7 +721,7 @@ footer li{
 /*clase general de posicion de footer contenido de elementos */
 .w-footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding:60px 60px;
     margin-top: 20px auto;
     margin-bottom: 20px;
@@ -724,20 +730,22 @@ footer li{
 
 /*credenciales del footer*/
 
-.footer-creds{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 0 auto;
-    background-color:#e4e4e4f1;
+.footer-creds {
+    margin: auto;
+    background-color:hsla(0, 0%, 89%, 0.945);
     color:#333333;
-    max-width: 1200px;
+    width: 1200px;
+    height:60px ;
 }
+
+
 
 /* icono que contiene las credenciales del footer*/
 .corazon{
-    max-width: 15px;
+    width: 15px;
     align-items: center;
 }
+
+
+
 
